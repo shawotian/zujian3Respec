@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+//#import <UIKit/UIKit.h>
 @interface Tool : NSObject
 
-+(CGFloat)getheightWithString:(NSString*)str;
+//+(CGFloat)getheightWithString:(NSString*)str;
     
 @end

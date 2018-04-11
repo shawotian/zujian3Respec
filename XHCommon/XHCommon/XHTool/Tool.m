@@ -9,10 +9,10 @@
 #import "Tool.h"
 
 @implementation Tool
-+(CGFloat)getheightWithString:(NSString*)str
-{
-    
-    return 30;
-   
-}
+//+(CGFloat)getheightWithString:(NSString*)str
+//{
+//    
+//    return 30;
+//   
+//}
 @end

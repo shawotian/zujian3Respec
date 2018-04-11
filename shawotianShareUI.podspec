@@ -2,9 +2,9 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "YeshifuShareUI"
+  s.name         = "shawotianShareUI"
   s.version      = "0.0.1"
-  s.license      = { :type => "MIT" }
+  s.license      = "MIT"
   s.summary      = "CocoaPods组件化实践"
 
 

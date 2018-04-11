@@ -14,6 +14,7 @@
 		9466EE0C207E376D0049E41A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9466EE0B207E376D0049E41A /* Assets.xcassets */; };
 		9466EE0F207E376D0049E41A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9466EE0D207E376D0049E41A /* LaunchScreen.storyboard */; };
 		9466EE12207E376D0049E41A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9466EE11207E376D0049E41A /* main.m */; };
+		9466EE1D207E4A490049E41A /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9466EE1C207E4A490049E41A /* Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		9466EE0E207E376D0049E41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9466EE10207E376D0049E41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9466EE11207E376D0049E41A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9466EE1B207E4A490049E41A /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		9466EE1C207E4A490049E41A /* Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		9466EDFE207E376C0049E41A /* XHCommon */ = {
 			isa = PBXGroup;
 			children = (
+				9466EE1A207E4A290049E41A /* XHTool */,
 				9466EDFF207E376C0049E41A /* AppDelegate.h */,
 				9466EE00207E376C0049E41A /* AppDelegate.m */,
 				9466EE02207E376C0049E41A /* ViewController.h */,
@@ -72,6 +76,15 @@
 				9466EE08207E376C0049E41A /* XHCommon.xcdatamodeld */,
 			);
 			path = XHCommon;
+			sourceTree = "<group>";
+		};
+		9466EE1A207E4A290049E41A /* XHTool */ = {
+			isa = PBXGroup;
+			children = (
+				9466EE1B207E4A490049E41A /* Tool.h */,
+				9466EE1C207E4A490049E41A /* Tool.m */,
+			);
+			path = XHTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9466EE1D207E4A490049E41A /* Tool.m in Sources */,
 				9466EE04207E376C0049E41A /* ViewController.m in Sources */,
 				9466EE0A207E376C0049E41A /* XHCommon.xcdatamodeld in Sources */,
 				9466EE12207E376D0049E41A /* main.m in Sources */,
